@@ -4,7 +4,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Website using HTML & CSS</title>
-    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <link rel="stylesheet" type="text/css" href="styles/page1_styles.css" />
+
+    <!-- FOR ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
@@ -14,99 +21,225 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="left_side">
-        <div class="profileText">
-          <div class="imgBx">
-            <img src="img.jpg" alt="pic" />
+    <div class="book">
+      <!-- Page 01 -->
+      <div class="page">
+        <div class="container subpage">
+          <div class="left_side">
+            <div class="ball-1"></div>
+            <div class="ball-2"></div>
+            <div class="ball-3"></div>
+            <div class="ball-4"></div>
+
+            <div class="left_side_content">
+              <div class="profileText">
+                <div class="imgBx">
+                  <img src="profile.jpg" alt="pic" />
+                </div>
+                <h2>Dewmali Chamodya</h2>
+                <div class="bio-text">
+                  <p class="first-bio-text">Software Engineering Student</p>
+                  <p>Undergraduate @UOVT</p>
+                </div>
+              </div>
+
+              <div class="contactInfo">
+                <h3 class="title">Contact Info</h3>
+                <ul>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-phone" aria-hidden="true"></i
+                    ></span>
+                    <span class="text">+94 37 12345678</span>
+                  </li>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-envelope-open" aria-hidden="true"></i
+                    ></span>
+                    <span class="text">sof22b124@uovt.ac.lk</span>
+                  </li>
+                  <li>
+                    <span class="icon"
+                      ><i class="fa fa-map-marker" aria-hidden="true"></i
+                    ></span>
+                    <span class="text">Nakkawattha, Kuliyapitiya.</span>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="contactInfo education">
+                <h3 class="title">Education</h3>
+                <ul>
+                  <li>
+                    <h5>2018</h5>
+                    <h4>GCE Ordinary Level</h4>
+                    <h4>Mayurapada Central College, Narammala</h4>
+                  </li>
+                  <li>
+                    <h5>2021</h5>
+                    <h4>GCE Advanced Level</h4>
+                    <h4>Mayurapada Central College, Narammala</h4>
+                  </li>
+                  <li>
+                    <h5>2023 - Current</h5>
+                    <h4>BTech in Software Technology</h4>
+                    <h4>University of Vocational Technology, Rathmalana</h4>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
-          <h2>Dewmali Chamodya <br /><span>Web Develpoer</span></h2>
-        </div>
 
-        <div class="contactInfo">
-          <h3 class="title">Contact Info</h3>
-          <ul>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-phone" aria-hidden="true"></i
-              ></span>
-              <span class="text">+94 37 12345678</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-envelope-open-o" aria-hidden="true"></i
-              ></span>
-              <span class="text">sof22b124@uovt.ac.lk</span>
-            </li>
-            <li>
-              <span class="icon"
-                ><i class="fa fa-map-marker" aria-hidden="true"></i
-              ></span>
-              <span class="text">Nakkawattha, Kuliyapitiya.</span>
-            </li>
-          </ul>
-        </div>
+          <div class="right_side">
+            <div class="about">
+              <h2 class="title2">Profile</h2>
+              <p class="about_text">
+                I'm <b>Dewmali Chamodya Jayasooriya</b> who currently following
+                Software Engineering degree programme at UOVT. I grew up at
+                Narammala, Kurunagala and went to Narammala Mayurapada Central
+                College for my secondary education. I have completed my O/l
+                education in English Medium & got tallented in Music as an
+                aesthetic skill
+              </p>
+            </div>
 
-        <div class="contactInfo education">
-          <h3 class="title">Education</h3>
-          <ul>
-            <li>
-              <h5>2018</h5>
-              <h4>GCE Ordinary Level</h4>
-              <h4>Mayurapada Central College, Narammala</h4>
-            </li>
-            <li>
-              <h5>2021</h5>
-              <h4>GCE Advanced Level</h4>
-              <h4>Mayurapada Central College, Narammala</h4>
-            </li>
-            <li>
-              <h5>2023 - Current</h5>
-              <h4>BTech in Software Technology</h4>
-              <h4>University of Vocational Technology, Rathmalana</h4>
-            </li>
-          </ul>
+            <div class="core_skills">
+              <h2 class="title2">Core skills</h2>
+
+              <div class="list">
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-users" aria-hidden="true"></i
+                  ></span>
+                  <span class="text">Team Collaboration</span>
+                </div>
+
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-music" aria-hidden="true"></i
+                  ></span>
+                  <span class="text">Violin & Guitar Playing</span>
+                </div>
+
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-comments" aria-hidden="true"></i>
+                  </span>
+                  <span class="text">Communication Skills</span>
+                </div>
+
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-laptop" aria-hidden="true"></i>
+                  </span>
+                  <span class="text">Programming Skills</span>
+                </div>
+
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-paint-brush" aria-hidden="true"></i>
+                  </span>
+                  <span class="text">Designing Skills</span>
+                </div>
+
+                <div class="skill">
+                  <span class="icon"
+                    ><i class="fa fa-book" aria-hidden="true"></i>
+                  </span>
+                  <span class="text">Reading Books</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="about professional_skills skills">
+              <h2 class="title2">Professional skills</h2>
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-html5" style="color: #c92f2f"></i>
+                </span>
+                <h4>Html</h4>
+                <div class="precent">
+                  <div style="width: 95%"></div>
+                </div>
+              </div>
+
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-css3" style="color: #0f4ab6"></i>
+                </span>
+                <h4>CSS</h4>
+                <div class="precent">
+                  <div style="width: 90%"></div>
+                </div>
+              </div>
+
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-javascript" style="color: #d1af17"></i>
+                </span>
+                <h4>JavaScript</h4>
+                <div class="precent">
+                  <div style="width: 85%"></div>
+                </div>
+              </div>
+
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-visual-studio" style="color: #500064"></i>
+                </span>
+                <h4>Visual Basic</h4>
+                <div class="precent">
+                  <div style="width: 50%"></div>
+                </div>
+              </div>
+
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-adobe" style="color: #c21919"></i>
+                </span>
+                <h4>Photoshop</h4>
+                <div class="precent">
+                  <div style="width: 80%"></div>
+                </div>
+              </div>
+
+              <div class="box">
+                <span class="skill_icon">
+                  <i class="bx bxl-php" style="color: #5c0291"></i>
+                </span>
+                <h4>PHP</h4>
+                <div class="precent">
+                  <div style="width: 65%"></div>
+                </div>
+              </div>
+            </div>
+
+            <div class="languages">
+              <h2 class="title2">Languages</h2>
+
+              <div class="language_list">
+                <div class="language">
+                  <span>Sinhala</span>
+                  <span>Native</span>
+                </div>
+
+                <div class="language">
+                  <span>English</span>
+                  <span>Fluent</span>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="right_side">
-        <div class="about">
-          <h2 class="title2">Profile</h2>
-          <p> ee </p>
-        </div>
 
-        <div class="about skills">
-          <h2 class="title2">Professional skills</h2>
-          <div class="box">
-            <h4>Html</h4>
-            <div class="precent">
-              <div style="width: 95%;"></div>
-            </div>
-          </div>
-          
-          <div class="box">
-            <h4>CSS</h4>
-            <div class="precent">
-              <div style="width: 90%;"></div>
-            </div>
-          </div>
-          
-          <div class="box">
-            <h4>Java Script</h4>
-            <div class="precent">
-              <div style="width: 85%;"></div>
-            </div>
-          </div>
-          
-          <div class="box">
-            <h4>Photoshop</h4>
-            <div class="precent">
-              <div style="width: 80%;"></div>
-            </div>
-          </div>
-        </div>        
-       
-     </div>
+      <!-- Page 02 -->
+      <div class="page">
+        <div class="page_2">Test page</div>
+      </div>
+
+      <!-- Page 03 -->
+      <div class="page">page 2</div>
     </div>
   </body>
 </html>
