@@ -1,0 +1,128 @@
+.page_3_body {
+  margin-top: 20px;
+}
+
+.page_3_body .university_card {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 1.2rem;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.page_3_body .university_card .content {
+  padding: 0px 15px;
+}
+
+.page_3_body .university_card .content h5 {
+  opacity: 80%;
+  margin-bottom: -0.2rem;
+}
+.page_3_body .university_card .content h2 {
+  color: #40084e;
+}
+
+.page_3_body .university_card .content p {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.page_3_body .university_card .uni_image {
+  width: 300px;
+  border-radius: 1.2rem;
+}
+
+.page_3_body .projects {
+  margin-top: 1.9rem;
+}
+
+.page_3_body .projects_area {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+  margin-top: 1.2rem;
+}
+
+.page_3_body .projects_area .github_link {
+  flex: 1;
+}
+
+.page_3_body .projects_area .project_card {
+  width: 100%;
+  border: 1px solid gray;
+  border-radius: 1.2rem;
+  padding: 1rem;
+  cursor: pointer;
+  flex: 1;
+  text-decoration: none;
+  color: black;
+}
+
+.page_3_body .projects_area .project_card h2 {
+  font-size: 1.2rem;
+}
+
+.page_3_body .projects_area .project_card h2:hover {
+  text-decoration: underline;
+}
+
+.page_3_body .projects_area .project_card p {
+  font-size: 0.8rem;
+}
+
+.page_3_body .projects_area .github_link {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+}
+
+.page_3_body .projects_area .github_link a {
+  color: black;
+  text-decoration: none;
+}
+.page_3_body .projects_area .github_link a:hover {
+  text-decoration: underline;
+}
+
+.page_3_body .projects_area .github_link i {
+  font-size: 1.5rem;
+}
+
+.page_3_body .socials_area {
+  margin-top: 3.4rem;
+}
+
+.page_3_body .socials_grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 30px;
+}
+
+.page_3_body .socials_grid .social_card {
+  padding: 1rem;
+  border: 1px solid gray;
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  min-width: 200px;
+}
+
+.page_3_body .socials_grid .social_card .social_card_icon {
+  font-size: 3rem;
+}
+
+.page_3_body .socials_grid .social_card h2 {
+  font-size: 16px;
+}
+
+.page_3_body .socials_grid .social_card p {
+  font-size: small;
+}

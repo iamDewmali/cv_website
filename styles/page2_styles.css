@@ -1,0 +1,109 @@
+.page_2 .page_2_body {
+  margin-top: 1rem;
+}
+
+.page_2 .page_2_body .landing {
+  position: relative;
+}
+
+.page_2 .page_2_body .landing .landing_icon {
+  color: #6a0888;
+  opacity: 30%;
+  position: absolute;
+  font-size: 5rem;
+}
+
+.page_2 .page_2_body .landing .icon_top {
+  top: -40px;
+  left: 0;
+}
+.page_2 .page_2_body .landing .icon_bottom {
+  top: 70px;
+  right: 0;
+}
+
+.page_2 .page_2_body .landing .description {
+  font-size: medium;
+  color: rgb(48, 48, 48);
+  margin-top: 3.3rem;
+  text-indent: 100px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  text-align: justify;
+}
+
+.page_2 .result_area {
+  margin: 45px auto;
+  border: 1px solid gray;
+  border-radius: 0.5rem;
+}
+
+.page_2 .result_area h1.result_title {
+  font-size: 1.1rem;
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+  background-color: #6a08884b;
+  padding: 0.6rem 1.1rem;
+  border-radius: 0.5rem;
+  color: #16051a;
+}
+
+.page_2 .result_area h1.result_title span {
+  font-size: 1.6rem;
+  color: #440550;
+}
+
+.page_2 .grid_ol {
+  margin: 1.2rem;
+  display: grid;
+  grid-template-columns: auto 200px;
+}
+
+.page_2 .grid_ol .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  color: #16051a;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.page_2 .grid_ol .grid-title-item {
+  background-color: rgba(123, 40, 179, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-weight: 700;
+}
+
+.page_2 .grid_al {
+  margin: 1.2rem;
+  display: grid;
+  grid-template-columns: auto 200px;
+}
+
+.page_2 .grid_al .grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  color: #16051a;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+}
+
+.page_2 .grid_al .grid-title-item {
+  background-color: rgba(123, 40, 179, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  font-weight: 700;
+}
